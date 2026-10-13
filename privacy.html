@@ -1,1 +1,58 @@
-/Users/mac/Desktop/hermes-oauth-site/privacy.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy &mdash; Hermes Calendar Integration</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+         max-width: 44rem; margin: 3rem auto; padding: 0 1.25rem;
+         line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  a { color: #0b5fff; }
+  code { background: #f2f2f2; padding: 0.1rem 0.3rem; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p>Last updated: 13 October 2026.</p>
+
+<h2>Scope</h2>
+<p>This policy covers the private OAuth client <strong>Hermes Agent</strong> and its use
+of Google user data. The application has exactly one user: the owner of the Google
+account that authorises it. It is not available to the public.</p>
+
+<h2>What data is accessed</h2>
+<p>The application requests a single Google OAuth scope:
+<code>https://www.googleapis.com/auth/calendar</code>. Through that scope it can read
+and modify calendar events in the authorising user's Google Calendar.</p>
+<p>It does not request or receive access to Gmail, Google Drive, Google Contacts,
+Google Sheets, or Google Docs.</p>
+
+<h2>How data is used</h2>
+<p>Calendar data is used only to answer the owner's requests and to create, update, or
+delete calendar events at the owner's instruction. It is not used for advertising, is
+not used to train machine learning models, and is not sold.</p>
+
+<h2>How data is stored</h2>
+<p>An OAuth refresh token is stored locally on the owner's own computer. Calendar
+content is retrieved on demand and is not retained by any third-party service.</p>
+
+<h2>Sharing</h2>
+<p>No Google user data is shared with any third party. The only external processing is
+the request the owner themselves makes to an AI model provider in order to use the
+assistant.</p>
+
+<h2>Retention and deletion</h2>
+<p>The stored refresh token can be revoked at any time from the owner's Google Account
+security settings at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+which immediately ends the application's access. Deleting the local token file removes
+all locally stored credentials.</p>
+
+<h2>Contact</h2>
+<p>This application is for personal use only. Questions can be directed to its owner.</p>
+
+</body>
+</html>
